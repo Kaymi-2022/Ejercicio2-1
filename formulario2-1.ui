@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>785</width>
-    <height>449</height>
+    <width>758</width>
+    <height>426</height>
    </rect>
   </property>
   <property name="font">
@@ -20,15 +20,15 @@
    <string>DATOS DEL TRABAJADOR</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(155, 155, 155);</string>
+   <string notr="true">background-color: rgb(182, 91, 0);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>30</x>
       <y>70</y>
-      <width>241</width>
+      <width>271</width>
       <height>261</height>
      </rect>
     </property>
@@ -46,7 +46,7 @@
       <rect>
        <x>20</x>
        <y>10</y>
-       <width>201</width>
+       <width>231</width>
        <height>241</height>
       </rect>
      </property>
@@ -73,12 +73,12 @@ background-color:black;
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="boton_b">
       <property name="geometry">
        <rect>
         <x>30</x>
         <y>60</y>
-        <width>149</width>
+        <width>171</width>
         <height>23</height>
        </rect>
       </property>
@@ -86,12 +86,12 @@ background-color:black;
        <string>CATEGORIA B</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="boton_c">
       <property name="geometry">
        <rect>
         <x>30</x>
         <y>100</y>
-        <width>149</width>
+        <width>171</width>
         <height>23</height>
        </rect>
       </property>
@@ -99,12 +99,12 @@ background-color:black;
        <string>CATEGORIA C</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_5">
+     <widget class="QPushButton" name="boton_d">
       <property name="geometry">
        <rect>
         <x>30</x>
         <y>140</y>
-        <width>149</width>
+        <width>171</width>
         <height>23</height>
        </rect>
       </property>
@@ -112,12 +112,12 @@ background-color:black;
        <string>CATEGORIA D</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_6">
+     <widget class="QPushButton" name="boton_e">
       <property name="geometry">
        <rect>
         <x>30</x>
         <y>180</y>
-        <width>149</width>
+        <width>171</width>
         <height>23</height>
        </rect>
       </property>
@@ -125,12 +125,12 @@ background-color:black;
        <string>CATEGORIA E</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="boton_a">
       <property name="geometry">
        <rect>
         <x>30</x>
         <y>20</y>
-        <width>149</width>
+        <width>171</width>
         <height>23</height>
        </rect>
       </property>
@@ -143,15 +143,24 @@ background-color:black;
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>40</y>
-      <width>241</width>
-      <height>16</height>
+      <x>20</x>
+      <y>30</y>
+      <width>301</width>
+      <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>11</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(0, 0, 0);
-font: 75 12pt &quot;Arial&quot;;</string>
+font: 87 11pt &quot;Arial Black&quot;;</string>
     </property>
     <property name="text">
      <string>SELECCIONE SU CATEGORIA:</string>
@@ -177,7 +186,7 @@ font: 75 11pt &quot;Arial&quot;;</string>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QLabel" name="label_2">
+    <widget class="QLabel" name="lb_ocupacion">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -201,12 +210,15 @@ font: 75 11pt &quot;Arial&quot;;</string>
      <property name="text">
       <string/>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>530</x>
       <y>80</y>
       <width>161</width>
       <height>61</height>
@@ -223,7 +235,7 @@ font: 75 11pt &quot;Arial&quot;;</string>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QLabel" name="label_3">
+    <widget class="QLabel" name="lb_sueldo">
      <property name="geometry">
       <rect>
        <x>20</x>
@@ -246,6 +258,9 @@ font: 75 11pt &quot;Arial&quot;;</string>
      </property>
      <property name="text">
       <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
    </widget>
@@ -269,7 +284,7 @@ font: 75 11pt &quot;Arial&quot;;</string>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QLabel" name="label_4">
+    <widget class="QLabel" name="lb_descuento1">
      <property name="geometry">
       <rect>
        <x>40</x>
@@ -293,8 +308,11 @@ font: 75 11pt &quot;Arial&quot;;</string>
      <property name="text">
       <string/>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
     </widget>
-    <widget class="QLabel" name="label_5">
+    <widget class="QLabel" name="lb_descuento2">
      <property name="geometry">
       <rect>
        <x>40</x>
@@ -317,6 +335,9 @@ font: 75 11pt &quot;Arial&quot;;</string>
      </property>
      <property name="text">
       <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
     <widget class="QLabel" name="label_6">
@@ -383,7 +404,7 @@ color: rgb(255, 255,255);</string>
    <widget class="QGroupBox" name="groupBox_4">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>530</x>
       <y>160</y>
       <width>161</width>
       <height>131</height>
@@ -400,7 +421,7 @@ font: 75 11pt &quot;Arial&quot;;</string>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
-    <widget class="QLabel" name="label_8">
+    <widget class="QLabel" name="lb_bonificacion1">
      <property name="geometry">
       <rect>
        <x>40</x>
@@ -424,8 +445,11 @@ font: 75 11pt &quot;Arial&quot;;</string>
      <property name="text">
       <string/>
      </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
     </widget>
-    <widget class="QLabel" name="label_9">
+    <widget class="QLabel" name="lb_bonificacion2">
      <property name="geometry">
       <rect>
        <x>40</x>
@@ -448,6 +472,9 @@ font: 75 11pt &quot;Arial&quot;;</string>
      </property>
      <property name="text">
       <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
      </property>
     </widget>
     <widget class="QLabel" name="label_10">
@@ -511,7 +538,7 @@ color: rgb(255, 255,255);</string>
      </property>
     </widget>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -522,7 +549,7 @@ color: rgb(255, 255,255);</string>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="pushButton_7">
+      <widget class="QPushButton" name="breset">
        <property name="styleSheet">
         <string notr="true">QPushButton{
 font: 87 12pt &quot;Arial Black&quot;;
@@ -542,27 +569,7 @@ background-color:black;
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_8">
-       <property name="styleSheet">
-        <string notr="true">QPushButton{
-font: 87 12pt &quot;Arial Black&quot;;
-background-color:#000000ff;
-color: rgb(20, 200, 220);
-border-radius:5px;
-border:1px sold white;
-}
-
-QPushButton:hover{
-background-color:black;
-}</string>
-       </property>
-       <property name="text">
-        <string>CALCULAR</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_9">
+      <widget class="QPushButton" name="bsalir">
        <property name="styleSheet">
         <string notr="true">QPushButton{
 font: 87 12pt &quot;Arial Black&quot;;
